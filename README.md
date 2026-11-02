@@ -13,8 +13,11 @@ Matériel du cours : analyse pas à pas des données de l'[European Social Surve
 
 ## Données
 
-- `ESS_start.csv` : sous-ensemble prêt à l'emploi (46 162 répondants × 58 variables), incluant les scores factoriels (`trust_inst`, `trust_interp`, `val_F1`–`val_F4`), l'index de bonheur (`bonheur_index`) et la typologie de valeurs (`val_cluster`).
-- Le fichier source `ESS11MD_e01_2.csv` (1,7 Go) n'est pas versionné : il se télécharge sur le [portail de données ESS](https://ess.sikt.no/en/series/50ebb530-c72e-4002-a7bf-5581e3fdfe21).
+Structure des dossiers :
+
+- `data/` : jeux de données — `ESS_start.csv`, sous-ensemble prêt à l'emploi (46 162 répondants × 58 variables), incluant les scores factoriels (`trust_inst`, `trust_interp`, `val_F1`–`val_F4`), l'index de bonheur (`bonheur_index`) et la typologie de valeurs (`val_cluster`). Le fichier source `ESS11MD_e01_2.csv` (1,7 Go) n'est pas versionné : il se télécharge sur le [portail de données ESS](https://ess.sikt.no/en/series/50ebb530-c72e-4002-a7bf-5581e3fdfe21) et doit être placé dans `data/`.
+- `export/` : CSV de résultats produits par les notebooks.
+- `image/` : figures exportées en PNG (corrélations, scree plots, saturations, dendrogramme, profils des clusters…).
 
 ## Dépendances
 
