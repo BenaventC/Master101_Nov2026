@@ -1,0 +1,9 @@
+# Données brutes ESS (volumineuses, à télécharger sur https://ess.sikt.no)
+ESS11MD_e01_2.csv
+ESS11MD_e01_2.zip
+*codebook.html
+
+# Environnements Python
+.venv*/
+__pycache__/
+.ipynb_checkpoints/
